@@ -1,0 +1,36 @@
+.country_list {
+    padding: 50px; 
+    margin-left: 50px; 
+    margin-right: 50px; 
+    background-color: rgb(243, 234, 234);
+}
+
+.country_list h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+    font-family: 'Alkatra';
+    color: #a11111bb;
+}
+
+.card_custom {
+    margin: 10px;
+}
+
+.card_custom p {
+    margin-bottom: 5px;
+}
+@media (min-width: 768px) {
+    .country_list .center-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .country_list .center-cards .ant-col {
+        flex: 1;
+    }
+}

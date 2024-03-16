@@ -1,0 +1,74 @@
+.todo-item-container {
+    background: linear-gradient(to bottom,#e7caca 10%, #b45a5a 0%, #f7eded 100%);
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0 4px 8px rgb(117, 102, 102);
+}
+
+.buttons-container {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #456e47;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-right: 5px;
+}
+
+
+
+.remove-button {
+    display: inline-block;
+    padding: 10px 10px;
+    margin-right: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #f3ebeb;
+    background-color: #a32525;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+
+.cancel-button{
+    
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #f33f93;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    
+}
+.cancel-button:hover {background-color: #f33f93}
+
+.cancel-button:active {
+      background-color: #633158;
+      box-shadow: 0 5px #666;
+      transform: translateY(3px);
+}

@@ -1,0 +1,17 @@
+.searchbar {
+  width: 98.5%;
+  padding: 10px;
+  border: 1px solid #b45a5a;
+  border-radius: 2px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.searchbar::placeholder {
+  color: #c54b4b;
+}
+
+.ant-input-search-icon {
+  color:#381717;
+}

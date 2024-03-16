@@ -1,0 +1,77 @@
+.todo_name {
+    font-family: Tahoma, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 20px; 
+    text-transform: uppercase;
+    text-align: center;
+    color: #b45a5a;
+}
+
+.new-todo-form {
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(172, 162, 162);
+}
+
+.new-todo-input {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ac7d7d;
+    border-radius: 8px;
+    width:90%;
+    outline: none;
+    margin-right: 25%;
+    
+}
+
+.add-todo-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    margin-top: 100px;
+    background: #b45a5a;
+    border: none;
+    color: #faf6f6;
+    font-size: 18px;
+    font-family: 'Alkatra';
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 10%;
+    box-shadow: 0 0 10px rgba(150, 60, 60, 0.1);
+    
+}
+.add-todo-button:hover {background-color: #851185}
+
+.add-todo-button:active {
+      background-color: #633158;
+      box-shadow: 0 5px #666;
+      transform: translateY(3px);
+}
+.view-countrylist-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    margin-top: 100px;
+    background: #b45a5a;
+    border: none;
+    color: #faf6f6;
+    font-size: 18px;
+    font-family: 'Alkatra';
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 17%;
+    box-shadow: 0 0 10px rgba(150, 60, 60, 0.1);
+}
+.view-countrylist-button:hover {background-color: #5a095a}
+
+.view-countrylist-button:active {
+    background-color: #633158;
+    box-shadow: 0 5px #666;
+    transform: translateY(3px);
+}
